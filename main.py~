@@ -2,7 +2,7 @@ import DNAOps
 import Codon
 
 op = DNAOps.DNAtoDNA(input("DNA leading sequence:"))
-print("DNA complementary sequence: ", op)
+print("DNA complementary sequence:", op)
 op = DNAOps.DNAtoRNA(op)
 print("mRNA (codon):", op)
 op = DNAOps.RNAtoRNA(op)
